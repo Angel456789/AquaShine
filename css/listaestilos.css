@@ -1,0 +1,82 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.encabezado{
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#imgLogo {
+  width: 110px;
+  border-radius: 50%;
+}
+
+.enlace {
+  color: #ffffff;
+  transition-duration: 1s;
+  font-size: 1.5vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+.enlace:hover {
+  background-color: white;
+  color: black;
+}
+
+.footer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1vw;
+  background-color: black;
+  color: white;
+  margin-top: 1%;
+  padding: 2%;
+}
+/* fin de estilos compartidos */
+
+.nov {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nov h2{
+    margin-top: 1%;
+}
+.nov h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+
+.nov a {
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.listado {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

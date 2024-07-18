@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .encabezado{
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  #imgLogo {
+    width: 110px;
+    border-radius: 50%;
+  }
+  
+  .enlace {
+    color: #ffffff;
+    transition-duration: 1s;
+    font-size: 1.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    
+  .enlace:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+    background-color: black;
+    color: white;
+    margin-top: 1%;
+    padding: 2%;
+  }
+  /* fin de estilos compartidos */
+  
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 1% 0%;
+}
+
+.formulario{
+    width: 80%;
+}
+
+.formulario form{
+    background-color: black;
+    padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario form input{
+    padding: 1%;
+    width: 100%;
+    border: 1px solid;
+    border-style: outset;
+    margin: 1% 0%;
+}
+
+#enviar:hover{
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+
+.seleccionar{
+    padding: 2%;
+    width: 100%;
+    border: 1px solid;
+    border-style: outset;
+    margin: 2% 0%;
+}
